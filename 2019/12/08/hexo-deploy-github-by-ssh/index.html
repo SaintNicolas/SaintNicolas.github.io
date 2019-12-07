@@ -5,13 +5,16 @@
   
 
   
-  <title>Pepper&#39;s Hexo blog</title>
+  <title> hexo deploy github by ssh | Pepper&#39;s Hexo blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Pepper&#39;s Hexo blog">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="hexo deploy to github by ssh参考资料：设置 SSH 使用 hexo deploy 时免输用户名密码使用 SSH 连接到 GitHub  生成SSH密钥首先查看自己的ssh文件夹是否有密钥  1ls -al ~&#x2F;.ssh 公钥形式为：  1id_rsa.pub 2id_ecdsa.pub3id_ed25519.pub 如果有可以不用创建，如果没有会在生成新的ssh密钥时创">
+<meta property="og:type" content="article">
+<meta property="og:title" content=" hexo deploy github by ssh">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;08&#x2F;hexo-deploy-github-by-ssh&#x2F;index.html">
 <meta property="og:site_name" content="Pepper&#39;s Hexo blog">
+<meta property="og:description" content="hexo deploy to github by ssh参考资料：设置 SSH 使用 hexo deploy 时免输用户名密码使用 SSH 连接到 GitHub  生成SSH密钥首先查看自己的ssh文件夹是否有密钥  1ls -al ~&#x2F;.ssh 公钥形式为：  1id_rsa.pub 2id_ecdsa.pub3id_ed25519.pub 如果有可以不用创建，如果没有会在生成新的ssh密钥时创">
 <meta property="og:locale" content="zh_cn">
+<meta property="og:updated_time" content="2019-12-07T17:43:48.355Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Pepper&#39;s Hexo blog" type="application/atom+xml">
@@ -59,9 +62,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-hexo-deploy-github-by-ssh" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hexo-deploy-github-by-ssh" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/12/08/hexo-deploy-github-by-ssh/" class="article-date">
   <time datetime="2019-12-07T17:34:51.000Z" itemprop="datePublished">2019-12-08</time>
@@ -74,8 +75,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/08/hexo-deploy-github-by-ssh/"> hexo deploy github by ssh</a>
+    <h1 class="article-title" itemprop="name">
+       hexo deploy github by ssh
     </h1>
   
 
@@ -108,103 +109,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-firstUse" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/12/06/firstUse/" class="article-date">
-  <time datetime="2019-12-06T11:43:15.000Z" itemprop="datePublished">2019-12-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/06/firstUse/">firstUse</a>
-    </h1>
+    <a href="/2019/12/06/firstUse/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">firstUse</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="准备前提"><a href="#准备前提" class="headerlink" title="准备前提"></a>准备前提</h2><p>先安装nodejs，node.js <a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener">GitHub仓库</a><br>安装npm</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ sudo apt install npm</span></pre></td></tr></table></figure>
-
-<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>hexo安装路径 <code>/home/pi/blog</code><br>hexo doc <code>hexo.io/zh-cn/docs</code></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$</span></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/06/firstUse/" data-id="ck3vvb39l000058yq0g0kb3ua" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux-hexo/" rel="tag">linux hexo</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/12/06/hello-world/" class="article-date">
-  <time datetime="2019-12-06T10:15:36.598Z" itemprop="datePublished">2019-12-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo server</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo generate</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/06/hello-world/" data-id="ck3vvb3aq000158yqfaeq0yi5" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
